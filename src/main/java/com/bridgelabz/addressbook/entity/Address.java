@@ -35,7 +35,7 @@ public class Address {
     @Column(name = "phone_number")
     private String phoneNumber;
     @Column(name = "zip")
-    private int zip;
+    private String zip;
     @CreationTimestamp
     @Column(name = "created_on")
     private LocalDateTime createdOn;
