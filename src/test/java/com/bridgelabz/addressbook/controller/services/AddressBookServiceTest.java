@@ -188,5 +188,24 @@ public class AddressBookServiceTest {
         verify(addressBookRepository, times(1)).delete(address);
         Assertions.assertEquals(expectedMessage, actualMessage);
     }
+
+    @Test
+    void givenId_whenCalledFindDetails_shouldReturnAddress() {
+        int id = 1;
+        Address address = new Address();
+        address.setId(1);
+        address.setName("Asim");
+        address.setAddress("12b");
+        address.setCity("kochi");
+        address.setState("kerala");
+        address.setPhoneNumber("9876543210");
+        address.setZip("123456");
+        address.setCreatedOn(LocalDateTime.now());
+        address.setUpdatedOn(LocalDateTime.now());
+
+        when(addressBookRepository.findById(id)).thenReturn(Optional.of(address));
+        Address actualAddress = addressBookService.findDetails(id);
+        Assertions.assertEquals(address, actualAddress);
+    }
 }
 
