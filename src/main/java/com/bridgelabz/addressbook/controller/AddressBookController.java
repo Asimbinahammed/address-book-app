@@ -27,7 +27,7 @@ public class AddressBookController {
 
     /**
      * Purpose : To print welcome message.
-     * @return ResponseEntity : Having welcomes message.
+     * @return ResponseEntity : Having welcome message.
      */
     @RequestMapping(value = {"", "/"})
     public ResponseEntity getAllData() {
@@ -53,6 +53,21 @@ public class AddressBookController {
     public ResponseEntity addAddress(@Valid @RequestBody AddressDto addressDto) {
         String successMessage = addressBookService.addAddress(addressDto);
         return new ResponseEntity(successMessage, addressDto, HttpStatus.OK);
+    }
+
+    /**
+     * Purpose : To update address in database.
+     * @param id : Database id which has tobe updated.
+     * @param addressDto : Having input data to be updated into database.
+     * @return ResponseEntity : Having success message, updated data &
+     *                          success status response code indicates that the request has succeeded.
+     */
+    @PutMapping(value = "/address/{id}")
+    public ResponseEntity updateAddress(
+            @PathVariable(name = "id") int id,
+            @Valid @RequestBody AddressDto addressDto) {
+        String updateMessage = addressBookService.updateAddress(id, addressDto);
+        return new ResponseEntity(updateMessage, addressDto, HttpStatus.OK);
     }
 
 }
