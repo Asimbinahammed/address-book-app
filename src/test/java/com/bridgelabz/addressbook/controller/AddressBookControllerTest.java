@@ -111,6 +111,23 @@ public class AddressBookControllerTest {
         ResponseEntity responseEntity = addressBookController.deleteAddress(id);
         Assertions.assertEquals(successMessage, responseEntity.getMessage());
         Assertions.assertEquals(addressDto, responseEntity.getData());
+    }
 
+    @Test
+    void givenId_whenCalledGetAddress_shouldReturnResponseEntity() {
+        String successMessage = "The address for the given id is here : ";
+        int id = 1;
+        AddressDto addressDto = new AddressDto();
+        addressDto.setName("Asim");
+        addressDto.setAddress("128");
+        addressDto.setCity("kochi");
+        addressDto.setState("kerala");
+        addressDto.setPhoneNumber("9876543210");
+        addressDto.setZip("123456");
+
+        when(addressBookService.getAddress(id)).thenReturn(addressDto);
+        ResponseEntity responseEntity = addressBookController.getAddress(id);
+        Assertions.assertEquals(successMessage, responseEntity.getMessage());
+        Assertions.assertEquals(addressDto, responseEntity.getData());
     }
 }
