@@ -135,5 +135,37 @@ public class AddressBookServiceTest {
         address.setUpdatedOn(LocalDateTime.now());
 
         when(addressBookRepository.findById(id)).thenReturn(Optional.empty());
-        Assertions.assertThrows(EntityNotFoundException.class, () -> addressBookService.updateAddress(id, addressDto));    }
+        Assertions.assertThrows(EntityNotFoundException.class, () -> addressBookService.updateAddress(id, addressDto)); 
+    }
+
+    @Test
+    void givenIdAndAddressDto_whenCalledUpdateAddress_shouldReturnSuccessMessage() {
+        int id = 1;
+        String expectedMessage = "ADDED atm into database";
+        AddressDto addressDto = new AddressDto();
+        addressDto.setName("Asim");
+        addressDto.setAddress("12b");
+        addressDto.setCity("kochi");
+        addressDto.setState("kerala");
+        addressDto.setPhoneNumber("9876543210");
+        addressDto.setZip("123456");
+
+        Address address = new Address();
+        address.setId(1);
+        address.setName("Asim");
+        address.setAddress("12b");
+        address.setCity("kochi");
+        address.setState("kerala");
+        address.setPhoneNumber("9876543210");
+        address.setZip("123456");
+        address.setCreatedOn(LocalDateTime.now());
+        address.setUpdatedOn(LocalDateTime.now());
+
+        when(addressBookRepository.findById(id)).thenReturn(Optional.of(address));
+        when(addressBuilder.buildAddressEntity(addressDto, address)).thenReturn(address);
+        String actualMessage = addressBookService.updateAddress(id, addressDto);
+        verify(addressBookRepository, times(1)).save(address);
+        Assertions.assertEquals(expectedMessage, actualMessage);
+    }
 }
+
