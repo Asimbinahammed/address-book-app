@@ -1,5 +1,6 @@
 package com.bridgelabz.addressbook.entity;
 
+import com.bridgelabz.addressbook.dto.AddressDto;
 import lombok.Data;
 
 /**

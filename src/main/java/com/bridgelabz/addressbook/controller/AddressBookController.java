@@ -6,6 +6,8 @@ import com.bridgelabz.addressbook.services.AddressBookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
 import java.util.List;
 
 /**
@@ -48,7 +50,7 @@ public class AddressBookController {
      *                          success status response code indicates that the request has succeeded.
      */
     @PostMapping(value = "/address")
-    public ResponseEntity addAddress(@RequestBody AddressDto addressDto) {
+    public ResponseEntity addAddress(@Valid @RequestBody AddressDto addressDto) {
         String successMessage = addressBookService.addAddress(addressDto);
         return new ResponseEntity(successMessage, addressDto, HttpStatus.OK);
     }
