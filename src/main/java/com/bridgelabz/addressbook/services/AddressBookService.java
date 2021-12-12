@@ -22,17 +22,15 @@ import java.util.stream.Collectors;
 @Service
 public class AddressBookService {
 
+    public String ADDED_DATA_SUCCESSFULLY = "ADDED atm into database";
+    public String UPDATED_DATA_SUCCESSFULLY = "UPDATED atm in database";
+    public String DELETED_DATA_SUCCESSFULLY = "DELETED atm from database";
     @Autowired
     private AddressBookRepository addressBookRepository;
     @Autowired
     private ModelMapper modelMapper;
     @Autowired
     private AddressBuilder addressBuilder;
-
-
-    public String ADDED_DATA_SUCCESSFULLY = "ADDED atm into database";
-    public String UPDATED_DATA_SUCCESSFULLY = "UPDATED atm in database";
-    public String DELETED_DATA_SUCCESSFULLY = "DELETED atm from database";
 
     /**
      * purpose : To list all address in database
@@ -58,13 +56,13 @@ public class AddressBookService {
     public String addAddress(AddressDto addressDto) {
         Address addressBookData = modelMapper.map(addressDto, Address.class);
         addressBookRepository.save(addressBookData);
-         return ADDED_DATA_SUCCESSFULLY;
+        return ADDED_DATA_SUCCESSFULLY;
     }
 
     /**
      * Purpose : To update Address entry with new one using id.
      *
-     * @param id : Database id.
+     * @param id         : Database id.
      * @param addressDto : New Address entry.
      * @return String : Success message for updating data in database.
      */
@@ -81,7 +79,7 @@ public class AddressBookService {
      * @param id : Database id
      * @return String : Success message for deleting data from database.
      */
-    public String deleteAddress(int id)  {
+    public String deleteAddress(int id) {
         Address address = findDetails(id);
         addressBookRepository.delete(address);
         return DELETED_DATA_SUCCESSFULLY;

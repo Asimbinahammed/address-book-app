@@ -17,7 +17,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 public class AddressBookServiceTest {
@@ -80,6 +80,33 @@ public class AddressBookServiceTest {
         List<AddressDto> actualListOfAddress = addressBookService.getAllAddress();
         Assertions.assertEquals(2, actualListOfAddress.size());
         Assertions.assertEquals(addressDtoList, actualListOfAddress);
-        
+    }
+
+    @Test
+    void givenAddressDto_whenCalledAddAddress_shouldReturnSuccessMessage() {
+        String expectedMessage = "ADDED atm into database";
+        AddressDto addressDto = new AddressDto();
+        addressDto.setName("Asim");
+        addressDto.setAddress("12b");
+        addressDto.setCity("kochi");
+        addressDto.setState("kerala");
+        addressDto.setPhoneNumber("9876543210");
+        addressDto.setZip("123456");
+
+        Address address = new Address();
+        address.setId(1);
+        address.setName("Asim");
+        address.setAddress("12b");
+        address.setCity("kochi");
+        address.setState("kerala");
+        address.setPhoneNumber("9876543210");
+        address.setZip("123456");
+        address.setCreatedOn(LocalDateTime.now());
+        address.setUpdatedOn(LocalDateTime.now());
+
+        when(modelMapper.map(addressDto, Address.class)).thenReturn(address);
+        String actualMessage = addressBookService.addAddress(addressDto);
+        verify(addressBookRepository, times(1)).save(address);
+        Assertions.assertEquals(expectedMessage, actualMessage);
     }
 }
