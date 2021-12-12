@@ -76,6 +76,18 @@ public class AddressBookService {
     }
 
     /**
+     * Purpose : To delete address from database.
+     *
+     * @param id : Database id
+     * @return String : Success message for deleting data from database.
+     */
+    public String deleteAddress(int id)  {
+        Address address = findDetails(id);
+        addressBookRepository.delete(address);
+        return DELETED_DATA_SUCCESSFULLY;
+    }
+
+    /**
      * purpose : To find entry by id if it presents in database
      *
      * @param id : Database id.
@@ -85,4 +97,14 @@ public class AddressBookService {
         return addressBookRepository.findById(id).orElseThrow(EntityNotFoundException::new);
     }
 
+    /**
+     * purpose : To find entry by id if it presents in database
+     *
+     * @param id : Database id.
+     * @return address : Data which has address details.
+     */
+    public AddressDto getAddress(int id) {
+        Address address = findDetails(id);
+        return modelMapper.map(address, AddressDto.class);
+    }
 }
