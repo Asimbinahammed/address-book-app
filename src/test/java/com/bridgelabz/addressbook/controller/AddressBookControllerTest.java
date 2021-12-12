@@ -96,6 +96,21 @@ public class AddressBookControllerTest {
     }
 
     @Test
-    void name() {
+    void givenId_whenCalledDeleteAddress_shouldReturnResponseEntity() {
+        String successMessage = "DELETED atm from database";
+        int id = 1;
+        AddressDto addressDto = new AddressDto();
+        addressDto.setName("Asim");
+        addressDto.setAddress("128");
+        addressDto.setCity("kochi");
+        addressDto.setState("kerala");
+        addressDto.setPhoneNumber("9876543210");
+        addressDto.setZip("123456");
+        when(addressBookService.getAddress(id)).thenReturn(addressDto);
+        when(addressBookService.deleteAddress(id)).thenReturn(successMessage);
+        ResponseEntity responseEntity = addressBookController.deleteAddress(id);
+        Assertions.assertEquals(successMessage, responseEntity.getMessage());
+        Assertions.assertEquals(addressDto, responseEntity.getData());
+
     }
 }
