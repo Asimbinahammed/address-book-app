@@ -22,9 +22,9 @@ import java.util.stream.Collectors;
 @Service
 public class AddressBookService {
 
-    public String ADDED_DATA_SUCCESSFULLY = "ADDED atm into database";
-    public String UPDATED_DATA_SUCCESSFULLY = "UPDATED atm in database";
-    public String DELETED_DATA_SUCCESSFULLY = "DELETED atm from database";
+    public String ADDED_DATA_SUCCESSFULLY = "ADDED address into database";
+    public String UPDATED_DATA_SUCCESSFULLY = "UPDATED address in database";
+    public String DELETED_DATA_SUCCESSFULLY = "DELETED address from database";
     @Autowired
     private AddressBookRepository addressBookRepository;
     @Autowired

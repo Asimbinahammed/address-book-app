@@ -141,7 +141,7 @@ public class AddressBookServiceTest {
     @Test
     void givenIdAndAddressDto_whenCalledUpdateAddress_shouldReturnSuccessMessage() {
         int id = 1;
-        String expectedMessage = "ADDED atm into database";
+        String expectedMessage = "UPDATED atm in database";
         AddressDto addressDto = new AddressDto();
         addressDto.setName("Asim");
         addressDto.setAddress("12b");
@@ -165,6 +165,27 @@ public class AddressBookServiceTest {
         when(addressBuilder.buildAddressEntity(addressDto, address)).thenReturn(address);
         String actualMessage = addressBookService.updateAddress(id, addressDto);
         verify(addressBookRepository, times(1)).save(address);
+        Assertions.assertEquals(expectedMessage, actualMessage);
+    }
+
+    @Test
+    void givenId_whenCalledDeleteAddress_shouldReturnSucessMessage() {
+        int id = 1;
+        String expectedMessage = "DELETED address from database";
+        Address address = new Address();
+        address.setId(1);
+        address.setName("Asim");
+        address.setAddress("12b");
+        address.setCity("kochi");
+        address.setState("kerala");
+        address.setPhoneNumber("9876543210");
+        address.setZip("123456");
+        address.setCreatedOn(LocalDateTime.now());
+        address.setUpdatedOn(LocalDateTime.now());
+
+        when(addressBookRepository.findById(id)).thenReturn(Optional.of(address));
+        String actualMessage = addressBookService.deleteAddress(id);
+        verify(addressBookRepository, times(1)).delete(address);
         Assertions.assertEquals(expectedMessage, actualMessage);
     }
 }
