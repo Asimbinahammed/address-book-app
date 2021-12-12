@@ -76,4 +76,26 @@ public class AddressBookControllerTest {
         Assertions.assertEquals(successMessage, responseEntity.getMessage());
         Assertions.assertEquals(addressDto, responseEntity.getData());
     }
+
+    @Test
+    void givenIdAndAddressDto_whenCalledUpdateAddress_shouldReturnResponseEntity() {
+        String successMessage = "UPDATED atm in database";
+        int id = 1;
+        AddressDto addressDto = new AddressDto();
+        addressDto.setName("Asim");
+        addressDto.setAddress("128");
+        addressDto.setCity("kochi");
+        addressDto.setState("kerala");
+        addressDto.setPhoneNumber("9876543210");
+        addressDto.setZip("123456");
+
+        when(addressBookService.updateAddress(id, addressDto)).thenReturn(successMessage);
+        ResponseEntity responseEntity = addressBookController.updateAddress(id, addressDto);
+        Assertions.assertEquals(successMessage, responseEntity.getMessage());
+        Assertions.assertEquals(addressDto, responseEntity.getData());
+    }
+
+    @Test
+    void name() {
+    }
 }
