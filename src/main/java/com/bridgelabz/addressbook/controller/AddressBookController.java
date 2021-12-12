@@ -32,7 +32,7 @@ public class AddressBookController {
      * @return ResponseEntity : Having welcome message.
      */
     @RequestMapping(value = {"", "/"})
-    public ResponseEntity getAllData() {
+    public ResponseEntity getWelcomeMessage() {
         return new ResponseEntity(welcomeMessage, null, HttpStatus.OK);
     }
 
