@@ -60,5 +60,20 @@ public class AddressBookControllerTest {
             Assertions.assertEquals(addressDtoList.get(i).getZip(), actualResponse.get(i).getZip());
         }
     }
-    
+
+    @Test
+    void givenAddressDto_whenCalledAddAddress_shouldReturnResponseEntity() {
+        String successMessage = "ADDED atm into database";
+        AddressDto addressDto = new AddressDto();
+        addressDto.setName("Asim");
+        addressDto.setAddress("128");
+        addressDto.setCity("kochi");
+        addressDto.setState("kerala");
+        addressDto.setPhoneNumber("9876543210");
+        addressDto.setZip("123456");
+        when(addressBookService.addAddress(addressDto)).thenReturn(successMessage);
+        ResponseEntity responseEntity = addressBookController.addAddress(addressDto);
+        Assertions.assertEquals(successMessage, responseEntity.getMessage());
+        Assertions.assertEquals(addressDto, responseEntity.getData());
+    }
 }
