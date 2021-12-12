@@ -22,8 +22,6 @@ public class AddressDto {
             message = "Address Only contains alphabets")
     private String address;
     @Size(min = 3, message = "City should have atleast 3 characters")
-    @Pattern(regexp = "[a-zA-Z]+[\\s]?[a-zA-Z ]+$",
-            message = "City Only contains alphabets")
     private String city;
     @Size(min = 3, message = "State should have atleast 3 characters")
     @Pattern(regexp = "[a-zA-Z]+[\\s]?[a-zA-Z ]+$",
