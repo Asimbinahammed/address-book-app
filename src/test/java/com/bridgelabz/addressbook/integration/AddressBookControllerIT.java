@@ -3,7 +3,6 @@ package com.bridgelabz.addressbook.integration;
 import com.bridgelabz.addressbook.controller.AddressBookController;
 import com.bridgelabz.addressbook.dto.AddressDto;
 import com.bridgelabz.addressbook.services.AddressBookService;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,8 +14,8 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import java.time.LocalDateTime;
 import java.util.ArrayList;
+
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -40,7 +39,7 @@ public class AddressBookControllerIT {
     }
 
     @Test
-    void addAdressTest() throws Exception {
+    void addAddressTest() throws Exception {
         when(addressBookService.addAddress(any())).thenReturn("success");
         mockMvc.perform(MockMvcRequestBuilders
                         .post("/api/address")
@@ -55,17 +54,17 @@ public class AddressBookControllerIT {
         int id = 1;
         AddressDto addressDto = new AddressDto();
         addressDto.setName("Asim");
-        addressDto.setAddress("12b");
+        addressDto.setAddress("third floor");
         addressDto.setCity("kochi");
         addressDto.setState("kerala");
         addressDto.setPhoneNumber("9876543210");
         addressDto.setZip("123456");
         when(addressBookService.updateAddress(id, addressDto)).thenReturn("Success");
         mockMvc.perform(MockMvcRequestBuilders
-                .put("/api/address/1")
-                .content("{\"name\":\"Asim\",\"address\":\"12b\",\"city\":\"kochi\"," +
-                        "\"state\":\"kerala\",\"phoneNumber\":\"9876543210\",\"zip\":\"123456\"}")
-                .contentType(MediaType.APPLICATION_JSON_VALUE))
+                        .put("/api/address/1")
+                        .content("{\"name\":\"Asim\",\"address\":\"third floor\",\"city\":\"kochi\"," +
+                                "\"state\":\"kerala\",\"phoneNumber\":\"9876543210\",\"zip\":\"123456\"}")
+                        .contentType(MediaType.APPLICATION_JSON_VALUE))
                 .andExpect(status().isOk());
     }
 
@@ -74,7 +73,24 @@ public class AddressBookControllerIT {
         int id = 1;
         when(addressBookService.deleteAddress(id)).thenReturn("Success");
         mockMvc.perform(MockMvcRequestBuilders
-                .delete("/api/address/1"))
+                        .delete("/api/address/1"))
                 .andExpect(status().isOk());
     }
+
+    @Test
+    void getAddressTest() throws Exception {
+        int id = 1;
+        AddressDto addressDto = new AddressDto();
+        addressDto.setName("Asim");
+        addressDto.setAddress("third floor");
+        addressDto.setCity("kochi");
+        addressDto.setState("kerala");
+        addressDto.setPhoneNumber("9876543210");
+        addressDto.setZip("123456");
+        when(addressBookService.getAddress(id)).thenReturn(addressDto);
+        mockMvc.perform(MockMvcRequestBuilders
+                        .get("/api/address/1"))
+                .andExpect(status().isOk());
+    }
+
 }

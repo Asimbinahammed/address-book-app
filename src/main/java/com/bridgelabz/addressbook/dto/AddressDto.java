@@ -1,6 +1,8 @@
 package com.bridgelabz.addressbook.dto;
 
 import lombok.Data;
+
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
@@ -18,8 +20,7 @@ public class AddressDto {
             message = "Name Only contains alphabets")
     private String name;
     @Size(min = 3, message = "Address should have atleast 3 characters")
-    @Pattern(regexp = "[a-zA-Z]+[\\s]?[a-zA-Z ]+$",
-            message = "Address Only contains alphabets")
+    @NotNull
     private String address;
     @Size(min = 3, message = "City should have atleast 3 characters")
     private String city;
