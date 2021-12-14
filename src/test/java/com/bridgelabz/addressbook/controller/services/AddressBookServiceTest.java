@@ -169,7 +169,7 @@ public class AddressBookServiceTest {
     }
 
     @Test
-    void givenId_whenCalledDeleteAddress_shouldReturnSucessMessage() {
+    void givenId_whenCalledDeleteAddress_shouldReturnSuccessMessage() {
         int id = 1;
         String expectedMessage = "DELETED address from database";
         Address address = new Address();
