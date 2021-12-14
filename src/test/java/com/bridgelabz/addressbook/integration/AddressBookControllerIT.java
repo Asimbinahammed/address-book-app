@@ -1,7 +1,9 @@
 package com.bridgelabz.addressbook.integration;
 
 import com.bridgelabz.addressbook.controller.AddressBookController;
+import com.bridgelabz.addressbook.dto.AddressDto;
 import com.bridgelabz.addressbook.services.AddressBookService;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +32,7 @@ public class AddressBookControllerIT {
     private AddressBookService addressBookService;
 
     @Test
-    void getAllPayrollTest() throws Exception {
+    void getAllAddressTest() throws Exception {
         when(addressBookService.getAllAddress()).thenReturn(new ArrayList<>());
         mockMvc.perform(MockMvcRequestBuilders
                         .get("/api/address"))
@@ -38,7 +40,7 @@ public class AddressBookControllerIT {
     }
 
     @Test
-    void addPayrollTest() throws Exception {
+    void addAdressTest() throws Exception {
         when(addressBookService.addAddress(any())).thenReturn("success");
         mockMvc.perform(MockMvcRequestBuilders
                         .post("/api/address")
@@ -47,4 +49,24 @@ public class AddressBookControllerIT {
                         .contentType(MediaType.APPLICATION_JSON_VALUE))
                 .andExpect(status().isOk());
     }
+
+    @Test
+    void updateAddressTest() throws Exception {
+        int id = 1;
+        AddressDto addressDto = new AddressDto();
+        addressDto.setName("Asim");
+        addressDto.setAddress("12b");
+        addressDto.setCity("kochi");
+        addressDto.setState("kerala");
+        addressDto.setPhoneNumber("9876543210");
+        addressDto.setZip("123456");
+        when(addressBookService.updateAddress(id, addressDto)).thenReturn("Success");
+        mockMvc.perform(MockMvcRequestBuilders
+                .put("/api/address/1")
+                .content("{\"name\":\"Asim\",\"address\":\"12b\",\"city\":\"kochi\"," +
+                        "\"state\":\"kerala\",\"phoneNumber\":\"9876543210\",\"zip\":\"123456\"}")
+                .contentType(MediaType.APPLICATION_JSON_VALUE))
+                .andExpect(status().isOk());
+    }
+    
 }
