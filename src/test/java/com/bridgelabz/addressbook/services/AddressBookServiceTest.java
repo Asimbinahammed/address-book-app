@@ -1,10 +1,9 @@
-package com.bridgelabz.addressbook.controller.services;
+package com.bridgelabz.addressbook.services;
 
 import com.bridgelabz.addressbook.builder.AddressBuilder;
 import com.bridgelabz.addressbook.dto.AddressDto;
 import com.bridgelabz.addressbook.entity.Address;
 import com.bridgelabz.addressbook.repository.AddressBookRepository;
-import com.bridgelabz.addressbook.services.AddressBookService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

@@ -18,7 +18,7 @@ import java.util.List;
  * @since 2021-12-03
  */
 @RestController
-@RequestMapping(value = "/addressbook")
+@RequestMapping(value = "/api")
 public class AddressBookController {
     public String welcomeMessage = "Success, Welcome to Address book app";
     public String getAddressMessage = "The address for the given id is here : ";
