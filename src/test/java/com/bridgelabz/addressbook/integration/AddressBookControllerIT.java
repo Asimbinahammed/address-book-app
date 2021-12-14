@@ -68,5 +68,13 @@ public class AddressBookControllerIT {
                 .contentType(MediaType.APPLICATION_JSON_VALUE))
                 .andExpect(status().isOk());
     }
-    
+
+    @Test
+    void deleteAddressTest() throws Exception {
+        int id = 1;
+        when(addressBookService.deleteAddress(id)).thenReturn("Success");
+        mockMvc.perform(MockMvcRequestBuilders
+                .delete("/api/address/1"))
+                .andExpect(status().isOk());
+    }
 }
