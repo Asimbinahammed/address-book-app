@@ -36,4 +36,15 @@ public class AddressBookControllerIT {
                         .get("/api/address"))
                 .andExpect(status().isOk());
     }
+
+    @Test
+    void addPayrollTest() throws Exception {
+        when(addressBookService.addAddress(any())).thenReturn("success");
+        mockMvc.perform(MockMvcRequestBuilders
+                        .post("/api/address")
+                        .content("{\"name\":\"Anu\",\"address\":\"kerala\",\"city\":\"kochi\"," +
+                                "\"state\":\"kerala\",\"phoneNumber\":\"9876543210\",\"zip\":\"987654\"}")
+                        .contentType(MediaType.APPLICATION_JSON_VALUE))
+                .andExpect(status().isOk());
+    }
 }
