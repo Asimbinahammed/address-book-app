@@ -1,666 +1,172 @@
-2021-12-15 00:16:04:065 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 21520 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 00:16:04:080 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 00:16:06:891 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 00:16:06:891 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 00:16:06:891 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 0 ms
-2021-12-15 00:16:06:922 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 00:16:06:969 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 00:16:07:000 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 00:16:07:172 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 00:16:07:172 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 00:16:07:172 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 00:16:07:188 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 00:16:07:188 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 00:16:07:188 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 00:16:07:188 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 00:16:07:188 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 00:16:07:313 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.794 seconds (JVM running for 5.211)
-2021-12-15 00:18:55:597 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 16200 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 00:18:55:597 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 00:18:58:340 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 00:18:58:340 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 00:18:58:340 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 0 ms
-2021-12-15 00:18:58:371 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 00:18:58:418 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 00:18:58:449 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 00:18:58:590 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 00:18:58:606 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 00:18:58:606 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 00:18:58:606 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 00:18:58:606 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 00:18:58:606 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 00:18:58:621 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 00:18:58:621 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 00:18:58:715 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.629 seconds (JVM running for 4.937)
-2021-12-15 00:19:38:379 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 23920 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 00:19:38:393 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 00:19:41:049 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 00:19:41:049 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 00:19:41:049 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 0 ms
-2021-12-15 00:19:41:081 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 00:19:41:112 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 00:19:41:127 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 00:19:41:315 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 00:19:41:315 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 00:19:41:331 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 00:19:41:331 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 00:19:41:331 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 00:19:41:346 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 00:19:41:346 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 00:19:41:346 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 00:19:41:455 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.614 seconds (JVM running for 4.935)
-2021-12-15 00:21:05:769 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 19580 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 00:21:05:769 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 00:21:08:480 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 00:21:08:480 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 00:21:08:480 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 0 ms
-2021-12-15 00:21:08:511 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 00:21:08:558 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 00:21:08:589 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 00:21:08:745 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 00:21:08:745 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 00:21:08:745 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 00:21:08:761 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 00:21:08:761 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 00:21:08:761 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 00:21:08:761 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 00:21:08:761 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 00:21:08:870 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.57 seconds (JVM running for 4.79)
-2021-12-15 00:21:15:200 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 7240 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 00:21:15:200 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 00:21:18:015 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 00:21:18:015 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 00:21:18:015 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 0 ms
-2021-12-15 00:21:18:046 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 00:21:18:093 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 00:21:18:125 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 00:21:18:281 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 00:21:18:281 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 00:21:18:281 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 00:21:18:281 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 00:21:18:296 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 00:21:18:296 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 00:21:18:296 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 00:21:18:296 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 00:21:18:437 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.712 seconds (JVM running for 5.086)
-2021-12-15 00:21:33:385 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 21544 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 00:21:33:385 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 00:21:36:002 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 00:21:36:002 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 00:21:36:002 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 0 ms
-2021-12-15 00:21:36:033 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 00:21:36:065 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 00:21:36:096 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 00:21:36:268 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 00:21:36:268 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 00:21:36:268 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 00:21:36:283 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 00:21:36:283 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 00:21:36:283 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 00:21:36:283 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 00:21:36:283 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 00:21:36:393 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.448 seconds (JVM running for 4.784)
-2021-12-15 00:22:52:248 [INFO] [main] [com.bridgelabz.addressbook.AddressBookApplication:55] Starting AddressBookApplication using Java 17 on DESKTOP-2I0J1B5 with PID 21220 (D:\eclipse\nmbvc\CFP\address-book\target\classes started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 00:22:52:248 [INFO] [main] [com.bridgelabz.addressbook.AddressBookApplication:663] The following profiles are active: dev
-2021-12-15 00:22:53:981 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-12-15 00:22:54:089 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interfaces.
-2021-12-15 00:22:54:463 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:39] Post-processing PropertySource instances
-2021-12-15 00:22:54:495 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
-2021-12-15 00:22:54:495 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
-2021-12-15 00:22:54:495 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
-2021-12-15 00:22:54:495 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
-2021-12-15 00:22:54:510 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
-2021-12-15 00:22:54:510 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
-2021-12-15 00:22:54:510 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource Config resource 'class path resource [application-dev.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
-2021-12-15 00:22:54:510 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
-2021-12-15 00:22:54:575 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
-2021-12-15 00:22:55:871 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-2021-12-15 00:22:55:882 [INFO] [main] [org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
-2021-12-15 00:22:55:882 [INFO] [main] [org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.53]
-2021-12-15 00:22:56:052 [INFO] [main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
-2021-12-15 00:22:56:053 [INFO] [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 3734 ms
-2021-12-15 00:22:56:182 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:35] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
-2021-12-15 00:22:56:199 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:35] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
-2021-12-15 00:22:56:220 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:37] String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
-2021-12-15 00:22:56:260 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWITHHMACSHA512ANDAES_256
-2021-12-15 00:22:56:261 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
-2021-12-15 00:22:56:262 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
-2021-12-15 00:22:56:263 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
-2021-12-15 00:22:56:264 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
-2021-12-15 00:22:56:264 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
-2021-12-15 00:22:56:287 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.iv-generator-classname, using default value: org.jasypt.iv.RandomIvGenerator
-2021-12-15 00:22:56:288 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
-2021-12-15 00:22:56:917 [INFO] [main] [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-12-15 00:22:57:074 [INFO] [main] [org.hibernate.Version:44] HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-12-15 00:22:57:347 [INFO] [main] [org.hibernate.annotations.common.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-12-15 00:22:57:670 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
-2021-12-15 00:22:57:699 [WARN] [main] [com.zaxxer.hikari.util.DriverDataSource:70] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2021-12-15 00:22:59:183 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
-2021-12-15 00:22:59:230 [INFO] [main] [org.hibernate.dialect.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2021-12-15 00:23:01:106 [INFO] [main] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-12-15 00:23:01:153 [INFO] [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-12-15 00:23:02:202 [WARN] [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-12-15 00:23:03:163 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-2021-12-15 00:23:03:163 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 00:23:03:178 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 00:23:03:194 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 00:23:03:376 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 00:23:03:392 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 00:23:03:423 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 00:23:03:434 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 00:23:03:459 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 00:23:03:483 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 00:23:03:508 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 00:23:03:528 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 00:23:03:652 [INFO] [main] [com.bridgelabz.addressbook.AddressBookApplication:61] Started AddressBookApplication in 12.094 seconds (JVM running for 12.687)
-2021-12-15 00:23:28:840 [INFO] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-12-15 00:23:28:840 [INFO] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
-2021-12-15 00:23:28:842 [INFO] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet:547] Completed initialization in 2 ms
-2021-12-15 00:23:28:993 [INFO] [http-nio-8080-exec-1] [com.bridgelabz.addressbook.advice.LoggingAdvice:46] Method invoked: class com.bridgelabz.addressbook.services.AddressBookService : addAddress()arguments : [{"name":"Anu","address":"kerala","city":"kochi","state":"kerala","phoneNumber":"9876543210","zip":"987654"}]
-2021-12-15 00:23:30:068 [INFO] [http-nio-8080-exec-1] [com.bridgelabz.addressbook.advice.LoggingAdvice:49] class com.bridgelabz.addressbook.services.AddressBookService : addAddress()Response : ADDED address into database
-2021-12-15 00:23:37:574 [INFO] [http-nio-8080-exec-3] [com.bridgelabz.addressbook.advice.LoggingAdvice:46] Method invoked: class com.bridgelabz.addressbook.services.AddressBookService : getAllAddress()arguments : []
-2021-12-15 00:23:37:877 [INFO] [http-nio-8080-exec-3] [com.bridgelabz.addressbook.advice.LoggingAdvice:49] class com.bridgelabz.addressbook.services.AddressBookService : getAllAddress()Response : [AddressDto(name=Asim Ahammed, address=kerala, city=kochi, state=kerala, phoneNumber=9876543210, zip=987654), AddressDto(name=Anu, address=kerala, city=kochi, state=kerala, phoneNumber=9876543210, zip=987654), AddressDto(name=Anu, address=kerala, city=kochi, state=kerala, phoneNumber=9876543210, zip=987654)]
-2021-12-15 00:26:03:912 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 21240 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 00:26:03:929 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 00:26:06:837 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 00:26:06:853 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 00:26:06:853 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 0 ms
-2021-12-15 00:26:06:884 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 00:26:06:915 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 00:26:06:946 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 00:26:07:118 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 00:26:07:118 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 00:26:07:134 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 00:26:07:134 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 00:26:07:134 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 00:26:07:134 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 00:26:07:150 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 00:26:07:150 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 00:26:07:259 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.817 seconds (JVM running for 5.132)
-2021-12-15 00:53:01:464 [INFO] [http-nio-8080-exec-9] [com.bridgelabz.addressbook.advice.LoggingAdvice:46] Method invoked: class com.bridgelabz.addressbook.services.AddressBookService : addAddress()arguments : [{"name":"Anu","address":"kerala","city":"kochi","state":"kerala","phoneNumber":"9876543210","zip":"987654"}]
-2021-12-15 00:53:01:957 [INFO] [http-nio-8080-exec-9] [com.bridgelabz.addressbook.advice.LoggingAdvice:49] class com.bridgelabz.addressbook.services.AddressBookService : addAddress()Response : ADDED address into database
-2021-12-15 01:49:19:915 [INFO] [SpringApplicationShutdownHook] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-12-15 01:49:20:236 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
-2021-12-15 01:49:20:274 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
-2021-12-15 02:02:21:737 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 22552 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:02:21:739 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:02:24:543 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:02:24:543 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:02:24:546 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 2 ms
-2021-12-15 02:02:24:576 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:02:24:626 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:02:24:644 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:02:24:819 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:02:24:822 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:02:24:825 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:02:24:828 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:02:24:831 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:02:24:835 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:02:24:838 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:02:24:841 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:02:24:952 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.717 seconds (JVM running for 5.294)
-2021-12-15 02:03:23:634 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 15964 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:03:23:636 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:03:26:231 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:03:26:232 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:03:26:234 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 1 ms
-2021-12-15 02:03:26:263 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:03:26:299 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:03:26:328 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:03:26:475 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:03:26:477 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:03:26:480 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:03:26:483 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:03:26:485 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:03:26:488 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:03:26:490 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:03:26:493 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:03:26:585 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.441 seconds (JVM running for 4.837)
-2021-12-15 02:03:42:173 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 88 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:03:42:176 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:03:44:829 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:03:44:830 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:03:44:832 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 2 ms
-2021-12-15 02:03:44:865 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:03:44:903 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:03:44:930 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:03:45:090 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:03:45:092 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:03:45:096 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:03:45:100 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:03:45:104 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:03:45:108 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:03:45:111 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:03:45:115 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:03:45:204 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.529 seconds (JVM running for 4.798)
-2021-12-15 02:04:15:185 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 13804 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:04:15:188 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:04:17:836 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:04:17:837 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:04:17:839 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 2 ms
-2021-12-15 02:04:17:884 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:04:17:929 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:04:17:964 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:04:18:199 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:04:18:203 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:04:18:206 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:04:18:211 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:04:18:215 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:04:18:219 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:04:18:224 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:04:18:228 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:04:18:373 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.657 seconds (JVM running for 5.0)
-2021-12-15 02:04:23:119 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 24116 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:04:23:121 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:04:25:943 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:04:25:944 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:04:25:946 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 2 ms
-2021-12-15 02:04:25:984 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:04:26:018 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:04:26:049 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:04:26:222 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:04:26:225 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:04:26:228 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:04:26:231 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:04:26:233 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:04:26:236 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:04:26:240 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:04:26:243 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:04:26:333 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.731 seconds (JVM running for 5.105)
-2021-12-15 02:04:29:982 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 10740 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:04:29:986 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:04:32:760 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:04:32:760 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:04:32:763 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 2 ms
-2021-12-15 02:04:32:794 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:04:32:834 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:04:32:864 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:04:33:116 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:04:33:125 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:04:33:134 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:04:33:141 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:04:33:146 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:04:33:149 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:04:33:153 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:04:33:158 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:04:33:265 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.763 seconds (JVM running for 5.408)
-2021-12-15 02:04:49:245 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 8172 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:04:49:248 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:04:52:000 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:04:52:001 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:04:52:004 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 2 ms
-2021-12-15 02:04:52:035 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:04:52:071 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:04:52:096 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:04:52:245 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:04:52:247 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:04:52:250 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:04:52:252 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:04:52:254 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:04:52:257 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:04:52:260 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:04:52:262 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:04:52:354 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.557 seconds (JVM running for 4.777)
-2021-12-15 02:08:02:114 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 7004 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:08:02:116 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:08:05:637 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:08:05:638 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:08:05:641 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 3 ms
-2021-12-15 02:08:05:676 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:08:05:715 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:08:05:743 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:08:05:906 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:08:05:910 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:08:05:915 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:08:05:919 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:08:05:923 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:08:05:925 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:08:05:930 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:08:05:933 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:08:06:049 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 4.67 seconds (JVM running for 6.307)
-2021-12-15 02:08:09:272 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 18760 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:08:09:276 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:08:12:012 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:08:12:012 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:08:12:015 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 2 ms
-2021-12-15 02:08:12:043 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:08:12:097 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:08:12:113 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:08:12:290 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:08:12:292 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:08:12:295 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:08:12:299 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:08:12:302 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:08:12:306 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:08:12:309 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:08:12:312 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:08:12:425 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.614 seconds (JVM running for 5.17)
-2021-12-15 02:08:36:957 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 4680 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:08:36:959 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:08:39:840 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:08:39:841 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:08:39:853 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 11 ms
-2021-12-15 02:08:39:884 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:08:39:916 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:08:39:947 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:08:40:147 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:08:40:151 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:08:40:155 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:08:40:160 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:08:40:164 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:08:40:168 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:08:40:173 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:08:40:177 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:08:40:313 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.842 seconds (JVM running for 5.057)
-2021-12-15 02:09:07:952 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 7000 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:09:07:955 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:09:10:828 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:09:10:829 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:09:10:832 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 3 ms
-2021-12-15 02:09:10:869 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:09:10:910 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:09:10:947 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:09:11:128 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:09:11:133 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:09:11:138 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:09:11:140 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:09:11:144 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:09:11:148 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:09:11:153 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:09:11:156 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:09:11:256 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.82 seconds (JVM running for 5.228)
-2021-12-15 02:09:23:037 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 3236 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:09:23:039 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:09:25:782 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:09:25:783 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:09:25:785 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 2 ms
-2021-12-15 02:09:25:815 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:09:25:850 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:09:25:880 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:09:26:041 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:09:26:044 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:09:26:049 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:09:26:051 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:09:26:056 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:09:26:061 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:09:26:066 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:09:26:069 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:09:26:199 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.643 seconds (JVM running for 4.938)
-2021-12-15 02:09:58:893 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 15516 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:09:58:896 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:10:01:739 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:10:01:740 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:10:01:743 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 2 ms
-2021-12-15 02:10:01:777 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:10:01:818 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:10:01:853 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:10:02:059 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:10:02:062 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:10:02:066 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:10:02:070 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:10:02:075 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:10:02:079 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:10:02:083 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:10:02:086 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:10:02:189 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.801 seconds (JVM running for 5.162)
-2021-12-15 02:10:18:324 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 1632 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:10:18:326 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:10:21:346 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:10:21:348 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:10:21:352 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 3 ms
-2021-12-15 02:10:21:401 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:10:21:456 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:10:21:500 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:10:21:725 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:10:21:730 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:10:21:735 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:10:21:740 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:10:21:744 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:10:21:748 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:10:21:754 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:10:21:759 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:10:21:886 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 4.041 seconds (JVM running for 5.765)
-2021-12-15 02:13:08:464 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 20584 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:13:08:467 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:13:11:254 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:13:11:255 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:13:11:258 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 2 ms
-2021-12-15 02:13:11:293 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:13:11:319 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:13:11:334 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:13:11:539 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:13:11:543 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:13:11:547 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:13:11:550 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:13:11:553 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:13:11:558 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:13:11:562 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:13:11:565 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:13:11:678 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.747 seconds (JVM running for 5.032)
-2021-12-15 02:13:11:853 [WARN] [main] [org.springframework.test.context.TestContextManager:550] Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@34129c78] for test method [void com.bridgelabz.addressbook.integration.AddressBookControllerIT.getAddressTest() throws java.lang.Exception] and test instance [com.bridgelabz.addressbook.integration.AddressBookControllerIT@8d29719]
-org.mockito.exceptions.misusing.UnfinishedStubbingException: 
-Unfinished stubbing detected here:
--> at com.bridgelabz.addressbook.integration.AddressBookControllerIT.getAddressTest(AddressBookControllerIT.java:92)
+2021-12-16 00:03:30:325 [INFO] [main] [com.bridgelabz.addressbook.AddressBookApplication:55] Starting AddressBookApplication using Java 17 on DESKTOP-2I0J1B5 with PID 23528 (D:\eclipse\nmbvc\CFP\address-book\target\classes started by Asim in D:\eclipse\nmbvc\CFP\address-book)
+2021-12-16 00:03:30:344 [INFO] [main] [com.bridgelabz.addressbook.AddressBookApplication:663] The following profiles are active: dev
+2021-12-16 00:03:31:722 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-16 00:03:31:909 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 142 ms. Found 1 JPA repository interfaces.
+2021-12-16 00:03:32:878 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:39] Post-processing PropertySource instances
+2021-12-16 00:03:32:925 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-12-16 00:03:32:940 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-12-16 00:03:32:940 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-12-16 00:03:32:940 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-12-16 00:03:32:940 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-12-16 00:03:32:940 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-12-16 00:03:32:940 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource Config resource 'class path resource [application-dev.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-12-16 00:03:32:940 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-12-16 00:03:33:093 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-12-16 00:03:33:890 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+2021-12-16 00:03:33:890 [INFO] [main] [org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2021-12-16 00:03:33:890 [INFO] [main] [org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-16 00:03:34:015 [INFO] [main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2021-12-16 00:03:34:015 [INFO] [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 3542 ms
+2021-12-16 00:03:34:065 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:35] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-12-16 00:03:34:081 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:35] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-12-16 00:03:34:081 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:37] String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2021-12-16 00:03:34:097 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWITHHMACSHA512ANDAES_256
+2021-12-16 00:03:34:097 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
+2021-12-16 00:03:34:097 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
+2021-12-16 00:03:34:097 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
+2021-12-16 00:03:34:097 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
+2021-12-16 00:03:34:097 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
+2021-12-16 00:03:34:112 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.iv-generator-classname, using default value: org.jasypt.iv.RandomIvGenerator
+2021-12-16 00:03:34:112 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
+2021-12-16 00:03:34:331 [INFO] [main] [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-16 00:03:34:409 [INFO] [main] [org.hibernate.Version:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-16 00:03:34:550 [INFO] [main] [org.hibernate.annotations.common.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-16 00:03:34:675 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2021-12-16 00:03:34:675 [WARN] [main] [com.zaxxer.hikari.util.DriverDataSource:70] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-12-16 00:03:35:034 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2021-12-16 00:03:35:065 [INFO] [main] [org.hibernate.dialect.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-16 00:03:35:737 [INFO] [main] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-16 00:03:35:752 [INFO] [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-16 00:03:36:362 [WARN] [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-16 00:03:36:862 [WARN] [main] [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-12-16 00:03:36:862 [INFO] [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-16 00:03:36:862 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2021-12-16 00:03:36:877 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2021-12-16 00:03:36:877 [INFO] [main] [org.apache.catalina.core.StandardService:173] Stopping service [Tomcat]
+2021-12-16 00:03:36:893 [INFO] [main] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136] 
 
-E.g. thenReturn() may be missing.
-Examples of correct stubbing:
-    when(mock.isOk()).thenReturn(true);
-    when(mock.isOk()).thenThrow(exception);
-    doThrow(exception).when(mock).someVoidMethod();
-Hints:
- 1. missing thenReturn()
- 2. you are trying to stub a final method, which is not supported
- 3. you are stubbing the behaviour of another mock inside before 'thenReturn' instruction is completed
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-16 00:03:36:908 [ERROR] [main] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:40] 
 
-	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:83)
-	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:70)
-	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.afterTestMethod(ResetMocksTestExecutionListener.java:64)
-	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:445)
-	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:206)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$11(TestMethodTestDescriptor.java:253)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$12(TestMethodTestDescriptor.java:269)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:269)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:268)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:252)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
-	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
-	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
-	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
-2021-12-15 02:14:05:401 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 15712 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:14:05:402 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:14:08:283 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:14:08:284 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:14:08:288 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 3 ms
-2021-12-15 02:14:08:345 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:14:08:393 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:14:08:416 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:14:08:602 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:14:08:606 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:14:08:608 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:14:08:612 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:14:08:616 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:14:08:620 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:14:08:623 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:14:08:626 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:14:08:735 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.804 seconds (JVM running for 5.156)
-2021-12-15 02:14:08:920 [WARN] [main] [org.springframework.test.context.TestContextManager:550] Caught exception while invoking 'afterTestMethod' callback on TestExecutionListener [org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@34129c78] for test method [void com.bridgelabz.addressbook.integration.AddressBookControllerIT.getAddressTest() throws java.lang.Exception] and test instance [com.bridgelabz.addressbook.integration.AddressBookControllerIT@8d29719]
-org.mockito.exceptions.misusing.UnfinishedStubbingException: 
-Unfinished stubbing detected here:
--> at com.bridgelabz.addressbook.integration.AddressBookControllerIT.getAddressTest(AddressBookControllerIT.java:92)
+***************************
+APPLICATION FAILED TO START
+***************************
 
-E.g. thenReturn() may be missing.
-Examples of correct stubbing:
-    when(mock.isOk()).thenReturn(true);
-    when(mock.isOk()).thenThrow(exception);
-    doThrow(exception).when(mock).someVoidMethod();
-Hints:
- 1. missing thenReturn()
- 2. you are trying to stub a final method, which is not supported
- 3. you are stubbing the behaviour of another mock inside before 'thenReturn' instruction is completed
+Description:
 
-	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:83)
-	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.resetMocks(ResetMocksTestExecutionListener.java:70)
-	at org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener.afterTestMethod(ResetMocksTestExecutionListener.java:64)
-	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:445)
-	at org.springframework.test.context.junit.jupiter.SpringExtension.afterEach(SpringExtension.java:206)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachCallbacks$11(TestMethodTestDescriptor.java:253)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$12(TestMethodTestDescriptor.java:269)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:269)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:268)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachCallbacks(TestMethodTestDescriptor.java:252)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
-	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
-	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
-	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
-2021-12-15 02:15:25:818 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 7544 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:15:25:821 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:15:28:730 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:15:28:730 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:15:28:732 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 1 ms
-2021-12-15 02:15:28:764 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:15:28:802 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:15:28:827 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:15:29:022 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:15:29:025 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:15:29:030 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:15:29:032 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:15:29:035 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:15:29:038 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:15:29:040 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:15:29:045 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:15:29:142 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.848 seconds (JVM running for 5.366)
-2021-12-15 02:15:44:770 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 2948 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:15:44:773 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:15:47:468 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:15:47:469 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:15:47:472 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 2 ms
-2021-12-15 02:15:47:505 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:15:47:543 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:15:47:572 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:15:47:738 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:15:47:741 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:15:47:744 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:15:47:749 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:15:47:755 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:15:47:760 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:15:47:764 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:15:47:768 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:15:47:872 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.615 seconds (JVM running for 4.981)
-2021-12-15 02:17:00:819 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 1544 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:17:00:822 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:17:03:636 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:17:03:637 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:17:03:638 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 1 ms
-2021-12-15 02:17:03:669 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:17:03:711 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:17:03:737 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:17:03:894 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:17:03:898 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:17:03:903 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:17:03:907 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:17:03:910 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:17:03:914 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:17:03:922 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:17:03:925 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:17:04:029 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.725 seconds (JVM running for 5.155)
-2021-12-15 02:17:36:276 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 20044 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
-2021-12-15 02:17:36:278 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
-2021-12-15 02:17:39:148 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
-2021-12-15 02:17:39:149 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
-2021-12-15 02:17:39:151 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 2 ms
-2021-12-15 02:17:39:196 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
-2021-12-15 02:17:39:230 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
-2021-12-15 02:17:39:258 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
-2021-12-15 02:17:39:403 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
-2021-12-15 02:17:39:408 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
-2021-12-15 02:17:39:411 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
-2021-12-15 02:17:39:413 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
-2021-12-15 02:17:39:416 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
-2021-12-15 02:17:39:418 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
-2021-12-15 02:17:39:421 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
-2021-12-15 02:17:39:423 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
-2021-12-15 02:17:39:524 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 3.742 seconds (JVM running for 5.195)
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-12-16 00:12:00:342 [INFO] [main] [com.bridgelabz.addressbook.AddressBookApplication:55] Starting AddressBookApplication using Java 17 on DESKTOP-2I0J1B5 with PID 11468 (D:\eclipse\nmbvc\CFP\address-book\target\classes started by Asim in D:\eclipse\nmbvc\CFP\address-book)
+2021-12-16 00:12:00:357 [INFO] [main] [com.bridgelabz.addressbook.AddressBookApplication:663] The following profiles are active: dev
+2021-12-16 00:12:01:517 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-16 00:12:01:580 [INFO] [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2021-12-16 00:12:01:908 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor:39] Post-processing PropertySource instances
+2021-12-16 00:12:01:939 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-12-16 00:12:01:939 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-12-16 00:12:01:939 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-12-16 00:12:01:939 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-12-16 00:12:01:939 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-12-16 00:12:01:939 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-12-16 00:12:01:939 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource Config resource 'class path resource [application-dev.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-12-16 00:12:01:939 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter:56] Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-12-16 00:12:02:002 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter:31] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-12-16 00:12:02:345 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver:35] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-12-16 00:12:02:361 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector:35] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-12-16 00:12:02:866 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108] Tomcat initialized with port(s): 8081 (http)
+2021-12-16 00:12:02:881 [INFO] [main] [org.apache.catalina.core.StandardService:173] Starting service [Tomcat]
+2021-12-16 00:12:02:881 [INFO] [main] [org.apache.catalina.core.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-16 00:12:03:037 [INFO] [main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring embedded WebApplicationContext
+2021-12-16 00:12:03:037 [INFO] [main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2614 ms
+2021-12-16 00:12:03:131 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor:37] String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2021-12-16 00:12:03:147 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWITHHMACSHA512ANDAES_256
+2021-12-16 00:12:03:147 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
+2021-12-16 00:12:03:162 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
+2021-12-16 00:12:03:162 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
+2021-12-16 00:12:03:162 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
+2021-12-16 00:12:03:162 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
+2021-12-16 00:12:03:162 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.iv-generator-classname, using default value: org.jasypt.iv.RandomIvGenerator
+2021-12-16 00:12:03:162 [INFO] [main] [com.ulisesbocchio.jasyptspringboot.configuration.StringEncryptorBuilder:81] Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
+2021-12-16 00:12:03:522 [INFO] [main] [org.hibernate.jpa.internal.util.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-16 00:12:03:568 [INFO] [main] [org.hibernate.Version:44] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-16 00:12:03:769 [INFO] [main] [org.hibernate.annotations.common.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-16 00:12:03:894 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:110] HikariPool-1 - Starting...
+2021-12-16 00:12:03:894 [WARN] [main] [com.zaxxer.hikari.util.DriverDataSource:70] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-12-16 00:12:04:300 [INFO] [main] [com.zaxxer.hikari.HikariDataSource:123] HikariPool-1 - Start completed.
+2021-12-16 00:12:04:332 [INFO] [main] [org.hibernate.dialect.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-16 00:12:05:206 [INFO] [main] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-16 00:12:05:222 [INFO] [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-16 00:12:06:044 [WARN] [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-16 00:12:06:606 [INFO] [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220] Tomcat started on port(s): 8081 (http) with context path ''
+2021-12-16 00:12:06:606 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
+2021-12-16 00:12:06:622 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
+2021-12-16 00:12:06:638 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
+2021-12-16 00:12:06:778 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
+2021-12-16 00:12:06:794 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
+2021-12-16 00:12:06:794 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
+2021-12-16 00:12:06:794 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
+2021-12-16 00:12:06:794 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
+2021-12-16 00:12:06:794 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
+2021-12-16 00:12:06:794 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
+2021-12-16 00:12:06:794 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
+2021-12-16 00:12:06:841 [INFO] [main] [com.bridgelabz.addressbook.AddressBookApplication:61] Started AddressBookApplication in 7.031 seconds (JVM running for 7.586)
+2021-12-16 00:12:56:339 [INFO] [http-nio-8081-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-16 00:12:56:340 [INFO] [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+2021-12-16 00:12:56:343 [INFO] [http-nio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet:547] Completed initialization in 3 ms
+2021-12-16 00:39:22:945 [INFO] [SpringApplicationShutdownHook] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-16 00:39:22:951 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+2021-12-16 00:39:22:967 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+2021-12-16 23:44:53:279 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 17184 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
+2021-12-16 23:44:53:286 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
+2021-12-16 23:44:57:109 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
+2021-12-16 23:44:57:111 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
+2021-12-16 23:44:57:113 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 2 ms
+2021-12-16 23:44:57:153 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
+2021-12-16 23:44:57:203 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
+2021-12-16 23:44:57:226 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
+2021-12-16 23:44:57:409 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
+2021-12-16 23:44:57:415 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
+2021-12-16 23:44:57:418 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
+2021-12-16 23:44:57:422 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
+2021-12-16 23:44:57:426 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
+2021-12-16 23:44:57:429 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
+2021-12-16 23:44:57:433 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
+2021-12-16 23:44:57:436 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
+2021-12-16 23:44:57:555 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 4.82 seconds (JVM running for 6.302)
+2021-12-16 23:47:09:708 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 144 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
+2021-12-16 23:47:09:711 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
+2021-12-16 23:47:12:804 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
+2021-12-16 23:47:12:805 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
+2021-12-16 23:47:12:808 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 2 ms
+2021-12-16 23:47:12:849 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
+2021-12-16 23:47:12:887 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
+2021-12-16 23:47:12:923 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
+2021-12-16 23:47:13:113 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
+2021-12-16 23:47:13:116 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
+2021-12-16 23:47:13:119 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
+2021-12-16 23:47:13:123 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
+2021-12-16 23:47:13:126 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
+2021-12-16 23:47:13:129 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
+2021-12-16 23:47:13:134 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
+2021-12-16 23:47:13:137 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
+2021-12-16 23:47:13:250 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 4.109 seconds (JVM running for 5.541)
+2021-12-16 23:47:37:918 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:55] Starting AddressBookControllerIT using Java 17 on DESKTOP-2I0J1B5 with PID 17668 (started by Asim in D:\eclipse\nmbvc\CFP\address-book)
+2021-12-16 23:47:37:923 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:663] The following profiles are active: test
+2021-12-16 23:47:41:654 [INFO] [main] [org.springframework.boot.test.mock.web.SpringBootMockServletContext:455] Initializing Spring TestDispatcherServlet ''
+2021-12-16 23:47:41:655 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:525] Initializing Servlet ''
+2021-12-16 23:47:41:657 [INFO] [main] [org.springframework.test.web.servlet.TestDispatcherServlet:547] Completed initialization in 2 ms
+2021-12-16 23:47:41:705 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:120] Context refreshed
+2021-12-16 23:47:41:749 [INFO] [main] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:123] Found 1 custom documentation plugin(s)
+2021-12-16 23:47:41:793 [INFO] [main] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41] Scanning for api listing references
+2021-12-16 23:47:42:077 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingGET_1
+2021-12-16 23:47:42:083 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingHEAD_1
+2021-12-16 23:47:42:089 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPOST_1
+2021-12-16 23:47:42:095 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPUT_1
+2021-12-16 23:47:42:099 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingPATCH_1
+2021-12-16 23:47:42:105 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingDELETE_1
+2021-12-16 23:47:42:110 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingOPTIONS_1
+2021-12-16 23:47:42:116 [INFO] [main] [springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40] Generating unique operation named: getWelcomeMessageUsingTRACE_1
+2021-12-16 23:47:42:260 [INFO] [main] [com.bridgelabz.addressbook.integration.AddressBookControllerIT:61] Started AddressBookControllerIT in 4.967 seconds (JVM running for 6.804)

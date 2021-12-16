@@ -84,6 +84,13 @@ public class AddressBookServiceTest {
     }
 
     @Test
+    void WhenFindDetailsByIdCalled_ThenIfIdIsNotFound_ShouldThrowException() {
+        int id = 1;
+        when(addressBookRepository.findById(id)).thenReturn(Optional.empty());
+        Assertions.assertThrows(EntityNotFoundException.class, () -> addressBookService.findDetails(id));
+    }
+
+    @Test
     void givenAddressDto_whenCalledAddAddress_shouldReturnSuccessMessage() {
         String expectedMessage = "ADDED address into database";
         AddressDto addressDto = new AddressDto();
@@ -189,6 +196,26 @@ public class AddressBookServiceTest {
     }
 
     @Test
+    void givenIdAndAddressDto_whenCalledDeleteAddress_shouldThrowEntityNotFoundException() {
+        int id = 1;
+        Address address = new Address();
+        address.setId(1);
+        address.setName("Asim");
+        address.setAddress("12b");
+        address.setCity("kochi");
+        address.setState("kerala");
+        address.setPhoneNumber("9876543210");
+        address.setZip("123456");
+        address.setCreatedOn(LocalDateTime.now());
+        address.setUpdatedOn(LocalDateTime.now());
+
+        when(addressBookRepository.findById(id)).thenReturn(Optional.empty());
+        verify(addressBookRepository, times(0)).delete(address);
+        when(addressBookRepository.findById(id)).thenReturn(Optional.empty());
+        Assertions.assertThrows(EntityNotFoundException.class, () -> addressBookService.deleteAddress(id));
+    }
+
+    @Test
     void givenId_whenCalledFindDetails_shouldReturnAddress() {
         int id = 1;
         Address address = new Address();
@@ -205,6 +232,13 @@ public class AddressBookServiceTest {
         when(addressBookRepository.findById(id)).thenReturn(Optional.of(address));
         Address actualAddress = addressBookService.findDetails(id);
         Assertions.assertEquals(address, actualAddress);
+    }
+
+    @Test
+    void givenId_whenCalledFindDetails_shouldThrowEntityNotFoundException() {
+        int id = 1;
+        when(addressBookRepository.findById(id)).thenReturn(Optional.empty());
+        Assertions.assertThrows(EntityNotFoundException.class, () -> addressBookService.findDetails(id));
     }
 
     @Test
@@ -233,6 +267,32 @@ public class AddressBookServiceTest {
         when(modelMapper.map(address, AddressDto.class)).thenReturn(addressDto);
         AddressDto actualResult = addressBookService.getAddress(id);
         Assertions.assertEquals(addressDto, actualResult);
+    }
+
+    @Test
+    void givenId_whenCalledGetAddress_shouldThrowEntityNotFoundException() {
+        int id = 1;
+        AddressDto addressDto = new AddressDto();
+        addressDto.setName("Asim");
+        addressDto.setAddress("12b");
+        addressDto.setCity("kochi");
+        addressDto.setState("kerala");
+        addressDto.setPhoneNumber("9876543210");
+        addressDto.setZip("123456");
+
+        Address address = new Address();
+        address.setId(1);
+        address.setName("Asim");
+        address.setAddress("12b");
+        address.setCity("kochi");
+        address.setState("kerala");
+        address.setPhoneNumber("9876543210");
+        address.setZip("123456");
+        address.setCreatedOn(LocalDateTime.now());
+        address.setUpdatedOn(LocalDateTime.now());
+
+        when(addressBookRepository.findById(id)).thenReturn(Optional.empty());
+        Assertions.assertThrows(EntityNotFoundException.class, () -> addressBookService.getAddress(id));
     }
 }
 

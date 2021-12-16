@@ -50,6 +50,17 @@ public class AddressBookControllerIT {
     }
 
     @Test
+    void givenWrongInputAsContent_whenCalledAddAddress_shouldReturnBadRequest() throws Exception {
+        when(addressBookService.addAddress(any())).thenReturn("success");
+        mockMvc.perform(MockMvcRequestBuilders
+                        .post("/api/address")
+                        .content("{\"name\":\"Anu3\",\"address\":\"kerala\",\"city\":\"kochi\"," +
+                                "\"state\":\"kerala\",\"phoneNumber\":\"9876543210\",\"zip\":\"987654\"}")
+                        .contentType(MediaType.APPLICATION_JSON_VALUE))
+                .andExpect(status().isBadRequest());
+    }
+
+    @Test
     void updateAddressTest() throws Exception {
         int id = 1;
         AddressDto addressDto = new AddressDto();
@@ -66,6 +77,25 @@ public class AddressBookControllerIT {
                                 "\"state\":\"kerala\",\"phoneNumber\":\"9876543210\",\"zip\":\"123456\"}")
                         .contentType(MediaType.APPLICATION_JSON_VALUE))
                 .andExpect(status().isOk());
+    }
+
+    @Test
+    void givenWrongInputAsContent_whenCalledUpdateAddress_shouldReturnBadRequest() throws Exception {
+        int id = 1;
+        AddressDto addressDto = new AddressDto();
+        addressDto.setName("Asim");
+        addressDto.setAddress("third floor");
+        addressDto.setCity("kochi");
+        addressDto.setState("kerala");
+        addressDto.setPhoneNumber("9876543210");
+        addressDto.setZip("123456");
+        when(addressBookService.updateAddress(id, addressDto)).thenReturn("Success");
+        mockMvc.perform(MockMvcRequestBuilders
+                        .put("/api/address/1")
+                        .content("{\"name\":\"Asim3\",\"address\":\"third floor\",\"city\":\"kochi\"," +
+                                "\"state\":\"kerala\",\"phoneNumber\":\"9876543210\",\"zip\":\"123456\"}")
+                        .contentType(MediaType.APPLICATION_JSON_VALUE))
+                .andExpect(status().isBadRequest());
     }
 
     @Test
